@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+@media screen and (min-width: 990px) {
+
+    p {
+    
+    font-size: 16px;
+    
+    }
+    
+    }
+@media screen and (max-width: 768px) {
+
+        p {
+        
+        font-size: 25px;
+        
+        }
+        
+        }
+@media screen and (min-width: 768px) and (max-width:990px) {
+
+            p {
+            
+            font-style: italic;
+            
+            }
+            
+            }            
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+body {
+    background-color: #F7E7CE;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.resume-container {
+  background: white;
+  width: 1100px;
+  margin: 0 auto 30px auto;
+  padding: 30px 20px;
+  border: 1px solid #f1f1f1;
+  box-shadow: 0px 6px #d79a61;
+  border-radius: 0px 0px 4px 4px;
+  display: flex;
+}
+
+.title {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    color: #999;
+    margin-bottom: 1em;
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    line-height: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.resume-title {
+    font-family: Georgia, serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.resume-subtitle {
+    font-family: Georgia, serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+.menu {
+    width: 990px;
+    margin: 80px auto 0 auto;
+    text-align:start;
+}
+
+.menu-item {
+    display: inline-flexbox ;
+    margin-right: 10px;
+    margin-left: 20px;
+    padding: 10px 40px 10px 40px;
+    background: #4e2e14eb;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    font-size: 14px;
+    color: white;
+    vertical-align: bottom;
+}
+.Prajitura {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  .Ecler{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 180px;
+  }  
+  .Inghetata{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 170px;
+  }  
+  .p{
+    font-family: Georgia, serif;
+  }
